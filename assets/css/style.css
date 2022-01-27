@@ -1,0 +1,306 @@
+* {
+  font-family: "Lato", sans-serif;
+}
+.pr-10 {
+  padding-right: 10px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+
+/* header area----- */
+.header-area {
+  background-color: rgb(13, 48, 81);
+}
+.header-area hr {
+  /* background-color: rgb(243, 193, 75);
+  border: 2px solid rgb(243, 193, 75); */
+  /*color: rgb(243, 193, 75);*/
+  background-color: darkgoldenrod;
+  position: absolute;
+  height: 4px;
+  width: 445px;
+}
+.header-area h1 {
+  color: rgb(243, 193, 75);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.header-area .top-left {
+  border: 4px solid;
+  border-color: rgb(56, 70, 63);
+  border-left: transparent;
+  border-top: transparent;
+  border-bottom: transparent;
+}
+
+.header-area .top-left p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 20px 50px 20px 50px;
+}
+.header-area .top-left p span {
+  color: rgb(243, 193, 75);
+}
+.header-area .top-right {
+  border: none;
+  border-color: rgb(243, 193, 75);
+  border-left-color: rgb(13, 48, 81);
+  border-top: none;
+  border-right: none;
+}
+.header-area .top-right p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 45px 50px 22px 50px;
+}
+.header-area .top-right p span {
+  color: rgb(13, 48, 81);
+}
+.header-area .top-right p strong {
+  color: rgb(243, 193, 75);
+}
+
+.header-area .bottom-left {
+  border: 4px solid;
+  border-color: rgb(56, 70, 63);
+  border-left: transparent;
+  border-top: transparent;
+  border-bottom: transparent;
+}
+.header-area .bottom-left p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 45px 50px 0px 50px;
+}
+.header-area .bottom-left p span {
+  color: rgb(243, 193, 75);
+}
+
+.header-area .bottom-right {
+  border: none;
+  border-color: rgb(243, 193, 75);
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}
+.header-area .bottom-right p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 29px 50px 0px 50px;
+}
+.header-area .bottom-right p span {
+  color: rgb(243, 193, 75);
+}
+
+/* Truck FAcult area */
+
+.truckfault-area {
+  background-color: rgb(54, 103, 151);
+  padding-bottom: 40px;
+}
+.truckfault-area h1 {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+}
+.truckfault-area h6 {
+  color: rgb(54, 103, 151);
+  font-weight: bold;
+  text-align: center;
+  padding: 3px;
+  border-radius: 5px;
+}
+.truckfault-area h4 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+}
+.truckfault-area h5 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+}
+
+.truckfault-area p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 19px;
+  padding: 0px 40px;
+}
+
+.truckfault-area p strong {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+}
+
+/*accidentpercent-area ---- */
+.accidentpercent-area {
+  background-color: rgb(13, 48, 81);
+  padding-bottom: 40px;
+}
+.accidentpercent-area h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: underline;
+}
+.accidentpercent-area h5 {
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: auto 600px;
+  font-size: 19px;
+}
+.accidentpercent-area p {
+  font-size: 20px;
+  padding: 20px 50px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+
+/* deathcauses area----- */
+
+.deathcauses-area {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 40px;
+}
+.deathcauses-area h1 {
+  color: rgb(13, 48, 81);
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.deathcauses-area-top h2 {
+  color: rgb(13, 48, 81);
+  text-align: left;
+  font-weight: bold;
+}
+
+.deathcauses-area-top p {
+  font-size: 19px;
+  color: rgb(56, 56, 56);
+  text-align: justify;
+}
+.deathcauses-area-bottom h2 {
+  color: rgb(13, 48, 81);
+  text-align: right;
+  font-weight: bold;
+}
+
+.deathcauses-area-bottom p {
+  font-size: 19px;
+  color: rgb(56, 56, 56);
+  text-align: justify;
+  text-align-last: right;
+  padding-left: 45px;
+}
+
+/* accicent cause area --- */
+.accidentcause-area {
+  background-color: rgb(13, 48, 81);
+  padding-bottom: 40px;
+}
+.accidentcause-area h1 {
+  color: rgb(243, 193, 75);
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bold;
+}
+.accidentcause-area p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Mobile Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .header-area .top-left {
+    border: none;
+  }
+  .header-area .bottom-left {
+    border: none;
+  }
+  .header-area hr {
+    display: none;
+  }
+}
+
+/* Mobile Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+}
+
+/* ipad tablet :481px. */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .header-area .top-left {
+    border: none;
+  }
+  .header-area .bottom-left {
+    border: none;
+  }
+  .header-area hr {
+    display: none;
+  }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-area hr {
+    /* background-color: rgb(243, 193, 75);
+    border: 2px solid rgb(243, 193, 75); */
+    /*color: rgb(243, 193, 75);*/
+    background-color: darkgoldenrod;
+    position: absolute;
+    height: 4px;
+    width: 270px;
+  }
+  .header-area .hr2 {
+    /* background-color: rgb(243, 193, 75);
+    border: 2px solid rgb(243, 193, 75); */
+    /*color: rgb(243, 193, 75);*/
+    background-color: darkgoldenrod;
+    position: absolute;
+    height: 4px;
+    width: 270px;
+    margin-top: 70px;
+  }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-area h1 {
+    font-size: 40px;
+  }
+  .header-area hr {
+    /* background-color: rgb(243, 193, 75);
+    border: 2px solid rgb(243, 193, 75); */
+    /*color: rgb(243, 193, 75);*/
+    background-color: darkgoldenrod;
+    position: absolute;
+    height: 4px;
+    width: 370px;
+  }
+}
+
+/* XL Device :1200px. */
+@media (min-width: 1201px) and (max-width: 1449px) {
+  .header-area h1 {
+    font-size: 40px;
+  }
+}
+
+/* LG Device :1025px. */
+@media (min-width: 1025px) and (max-width: 1149px) {
+}
+
+@media (min-width: 1450px) and (max-width: 1850px) {
+}
